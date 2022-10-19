@@ -12,6 +12,7 @@ import lombok.Getter;
 public enum PhoneSourceEnum {
 
     XIAMO("xiaomi", getUrl("xiaomi.md")),
+    APPLE("apple", getUrl("apple_all.md")),
     HUAWEI("huawei", getUrl("huawei_cn.md")),
     HONOR("honor", getUrl("honor_cn.md")),
     GOOGLE("google", getUrl("google_en.md")),

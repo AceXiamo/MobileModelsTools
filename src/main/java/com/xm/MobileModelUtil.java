@@ -42,7 +42,7 @@ public class MobileModelUtil {
             res = removeSpace(res);
 
             // 去除尾部版本，全网通版/移动定制版/移动 4G+ 版...
-            regex = "\\s[\u4e00-\u9fa5](.*)([\u4e00-\u9fa5]|\\))$";
+            regex = "\\s(\\(|[\u4e00-\u9fa5])(.*)([\u4e00-\u9fa5]|\\))$";
             res = res.replaceAll(regex, "");
 
             // 去除网络版本，4G/5G
