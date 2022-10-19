@@ -8,4 +8,4 @@ model:  M2102K1C <br/>
 result:  小米 11 Ultra <br/>
 
 ### 数据来源
-https://github.com/KHwang9883/MobileModels/tree/master/brands
+https://github.com/KHwang9883/MobileModels
